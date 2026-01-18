@@ -24,7 +24,7 @@ with open(filename) as f:
             lows.append(low)
 
 def plot_highs():
-    plt.style.use('seaborn')
+    #plt.style.use('seaborn')
     fig, ax = plt.subplots()
     ax.plot(dates, highs, c='red')
     plt.title("Daily High Temperatures - 2018", fontsize=24)
@@ -35,7 +35,7 @@ def plot_highs():
     plt.show()
 
 def plot_lows():
-    plt.style.use('seaborn')
+    #plt.style.use('seaborn')
     fig, ax = plt.subplots()
     ax.plot(dates, lows, c='blue')
     plt.title("Daily Low Temperatures - 2018", fontsize=24)

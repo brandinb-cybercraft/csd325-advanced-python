@@ -5,7 +5,7 @@ from tkinter import messagebox
 def main():
     root = tk.Tk()
 
-    # (a) Title: last name-ToDo
+
     root.title("Butler-ToDo")
 
     root.geometry("420x420")
